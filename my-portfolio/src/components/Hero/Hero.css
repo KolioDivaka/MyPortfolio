@@ -1,0 +1,51 @@
+.hero-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: inline;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-image img {
+    max-width: 360px;
+    max-height: 420px;
+    width: auto;
+    height: auto;
+    border: 10px solid #E63946;
+    border-radius: 12px;
+}
+
+.contact-button button {
+    font-size: 1.8rem; /* Match the font size of the text */
+    font-weight: 400; /* Match the font weight of the text */
+    color: #1D3557; /* Match the color of the text */
+    background-color: transparent; /* Make the background transparent */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to pointer */
+    margin-top: 10px; /* Add margin to match the text */
+    margin-bottom: 10px; /* Add margin to match the text */
+    text-decoration: underline; /* Optional: Add underline to match text style */
+}
+
+.contact-button:hover {
+    color: #E63946; /* Change color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}

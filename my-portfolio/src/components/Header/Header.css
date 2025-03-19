@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  width: 100%;
+  background-color: #1d3557;
+  padding: 0 10%; /* Add padding to create space from the edges */
+}
+
+.lowercase {
+  color: #F1FAEE;
+}
+
+.links {
+  display: inline-flex;
+  gap: 10%;
+  list-style: none;
+}
+
+.links a {
+  color: inherit;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  height: 1.8px;
+  background-color: currentColor; /* Use current text color */
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+.links li:hover {
+  transform: scale(1.1); /* Slightly enlarge the element */
+}
+
+.links a:hover::after {
+  width: 100%;
+}
