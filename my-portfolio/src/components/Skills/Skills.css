@@ -1,0 +1,55 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px; /* Add margin to position the skills section 21px below the about section */
+} 
+.skills h1 {
+    font-size: 3rem;
+    
+    margin-bottom: 20px;
+}
+.skills-container {
+    text-align: center;
+}
+
+.skills-container-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between the boxes as needed */
+    flex-wrap: wrap; /* Allow the boxes to wrap to the next line if needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.imgBox {
+    display: inline-flex; /* Use inline-flex to fit the content */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 12px 10px; /* Add padding around the content */
+    border: 2px solid #E63946;
+    border-radius: 10%;
+    text-align: center; /* Center text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+    width: 150px; /* Set a fixed width for the boxes */
+    height: 150px; /* Set a fixed height for the boxes */
+}
+
+.imgBox img {
+    width: 72px; /* Set the image width to 72px */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.imgBox p {
+    font-size: 3rem;
+    margin-top: 20px; /* Increase the margin-top to lower the text */
+}
+
+.imgBox:hover {
+    transform: scale(1.05); /* Slightly enlarge the element on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}

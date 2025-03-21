@@ -1,0 +1,22 @@
+.about-color{
+    background-color: #1D3557;
+}
+.about{
+    margin: 10px;
+    padding: 30px;
+    
+}
+.about-content p{
+    color: #F1FAEE;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.about-content span{
+    color: #E63946;
+     font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1rem;}

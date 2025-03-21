@@ -16,10 +16,10 @@ export default function Header() {
         {wrapLowercaseLetters('Nikola Pavlov')}
       </h1>
       <ul className="links">
-        <li><a className="about" href="">{wrapLowercaseLetters('About')}</a></li>
-        <li><a className="projects" href="">{wrapLowercaseLetters('Projects')}</a></li>
-        <li><a className="skills" href="">{wrapLowercaseLetters('Skills')}</a></li>
-        <li><a className="contacts" href="">{wrapLowercaseLetters('Contacts')}</a></li>
+        <li><a className="about-link" href="">{wrapLowercaseLetters('About')}</a></li>
+        <li><a className="projects-link" href="">{wrapLowercaseLetters('Projects')}</a></li>
+        <li><a className="skills-link" href="">{wrapLowercaseLetters('Skills')}</a></li>
+        <li><a className="contacts-link" href="">{wrapLowercaseLetters('Contacts')}</a></li>
       </ul>
     </div>
   );

@@ -13,39 +13,45 @@
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased by 5px from 2.5rem */
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1.8rem;
+    font-size: 2.3rem; /* Increased by 5px from 1.8rem */
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .hero-image img {
-    max-width: 360px;
-    max-height: 420px;
-    width: auto;
-    height: auto;
+    max-width: 720px;
+    max-height: 560px;
+    
     border: 10px solid #E63946;
     border-radius: 12px;
 }
 
-.contact-button button {
-    font-size: 1.8rem; /* Match the font size of the text */
-    font-weight: 400; /* Match the font weight of the text */
-    color: #1D3557; /* Match the color of the text */
-    background-color: transparent; /* Make the background transparent */
-    border: none; /* Remove the border */
-    cursor: pointer; /* Change the cursor to pointer */
-    margin-top: 10px; /* Add margin to match the text */
-    margin-bottom: 10px; /* Add margin to match the text */
-    text-decoration: underline; /* Optional: Add underline to match text style */
+.contact-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.contact-button:hover {
-    color: #E63946; /* Change color on hover */
-    text-decoration: none; /* Remove underline on hover */
+.contact-button button {
+    display: flex;
+    cursor: pointer;
+    background-color: #F1FAEE;
+    color: #E63946;
+    font-size: 1.7rem; /* Increased by 5px from 1.2rem */
+    padding: 10px 20px;
+    border: 2px solid #E63946;
+    border-radius: 10px;
+}
+
+.contact-button button:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
