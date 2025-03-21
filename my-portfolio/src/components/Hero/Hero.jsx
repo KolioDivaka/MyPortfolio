@@ -3,7 +3,7 @@ import myPhoto from "../../assets/myPhoto.jpg";
 
 export default function Hero() {
     return(
-   <section className="hero">
+   <section className="hero" id="hero">
       <div className="hero-container">
         <div className="hero-content-container">
             <div className="hero-content">
@@ -19,7 +19,7 @@ export default function Hero() {
                     currently studying at TU Sofia
                 </p>
                 <div className="contact-button"> 
-                   <button>Contact me</button>
+                   <button><a href="#contact">Contact me</a></button>
                 </div>
             </div>
             <div className="hero-image">

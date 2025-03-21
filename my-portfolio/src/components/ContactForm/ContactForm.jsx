@@ -30,7 +30,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div classNameid="contact" className="contact">
+        <div id="contact" className="contact">
             
            
                 

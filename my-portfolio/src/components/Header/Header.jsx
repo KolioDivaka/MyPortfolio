@@ -13,13 +13,13 @@ export default function Header() {
   return (
     <div className="header-container">
       <h1>
-        {wrapLowercaseLetters('Nikola Pavlov')}
+        <a href='#hero'>{wrapLowercaseLetters('Nikola Pavlov')}</a>
       </h1>
       <ul className="links">
-        <li><a className="about-link" href="">{wrapLowercaseLetters('About')}</a></li>
+        <li><a className="about-link" href="#about">{wrapLowercaseLetters('About')}</a></li>
         <li><a className="projects-link" href="">{wrapLowercaseLetters('Projects')}</a></li>
-        <li><a className="skills-link" href="">{wrapLowercaseLetters('Skills')}</a></li>
-        <li><a className="contacts-link" href="">{wrapLowercaseLetters('Contacts')}</a></li>
+        <li><a className="skills-link" href="#skills">{wrapLowercaseLetters('Skills')}</a></li>
+        <li><a className="contacts-link" href="#contact">{wrapLowercaseLetters('Contacts')}</a></li>
       </ul>
     </div>
   );

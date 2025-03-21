@@ -10,7 +10,7 @@ import unityLogo from "../../assets/unity_logo.svg";
 
 export default function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="skills-container">
                 <h1>Skills</h1>
                 <div className="skills-container-boxes">
