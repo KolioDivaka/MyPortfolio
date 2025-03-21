@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px; /* Add margin to position the skills section 21px below the about section */
+    margin-top: 50px;
+    margin-bottom: 50px;
 } 
 .skills h1 {
     font-size: 3rem;

@@ -6,6 +6,10 @@
   width: 100%;
   background-color: #1d3557;
   padding: 0 10%; /* Add padding to create space from the edges */
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; 
+  
 }
 
 .lowercase {
