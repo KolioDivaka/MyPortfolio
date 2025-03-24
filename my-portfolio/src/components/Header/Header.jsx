@@ -9,11 +9,13 @@ export default function Header() {
       return char;
     });
   };
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
   return (
     <div className="header-container">
       <h1>
-        <a href='#hero'>{wrapLowercaseLetters('Nikola Pavlov')}</a>
+        <a onClick={scrollToTop} >{wrapLowercaseLetters('Nikola Pavlov')}</a>
       </h1>
       <ul className="links">
         <li><a className="about-link" href="#about">{wrapLowercaseLetters('About')}</a></li>
