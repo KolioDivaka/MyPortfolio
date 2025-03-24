@@ -1,0 +1,26 @@
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+   background-color: #E63946;
+}
+.bottom-content{
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: fit-content;
+    gap: 70%;
+    color: #1D3557;
+    
+}
+.bottom-links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20%;
+    
+}

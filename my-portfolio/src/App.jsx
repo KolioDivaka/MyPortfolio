@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import ContactForm from './components/ContactForm/ContactForm'
-
+import Bottom from './components/Bottom/Bottom'
 import './App.css'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <About/>
       <Skills/>
       <ContactForm/>
-     
+      <Bottom/>
        
     </>
   )

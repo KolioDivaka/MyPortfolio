@@ -11,6 +11,7 @@
   },
   "proxy": "http://localhost:4000",
   "dependencies": {
+    "flowbite-react": "^0.10.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sweetalert2": "^11.17.2"
